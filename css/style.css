@@ -115,12 +115,8 @@ h1 {
 		padding-bottom: 150px;
 	}
 
-	.menu {
-		margin-top: 15px;
-	}
-
 	a {
-		font-size: 10px;
+		font-size: 7px;
 	}
 
 	.menu li a {
@@ -130,20 +126,20 @@ h1 {
 
 	h1 {
 		margin-top: 173px;
-		font-size: 32px;
+		font-size: 40px;
 	}
 
 	.suptitle {
-		margin-top: 31px;
+		margin-top: 33px;
 		line-height: 1.5;
-		font-size: 15px;
-		width: 287px;
+		font-size: 17px;
+		width: 320px;
 	}
 
 	.btn {
-		width: 118px;
-		padding: 8px 30px; 
+		width: 122px;
+		padding: 15px 30px; 
 		font-size: 10px;
-		margin-top: 45px;
+		margin-top: 48px;
 	}
 }
