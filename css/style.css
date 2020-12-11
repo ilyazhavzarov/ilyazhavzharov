@@ -32,6 +32,7 @@ ul, li {
 }
 
 .header {
+	margin: 0 auto;
 	height: 100vh;
 	background: url('../img/header-bg.png') no-repeat center top / cover;
 	padding-top: 55px;
@@ -44,7 +45,7 @@ ul, li {
 
 .menu a {
 	font-weight: 100;
-	margin-right: 90px;
+	margin-right: 30px;
 	color: #fff;
 }
 
@@ -94,4 +95,53 @@ h1 {
 	transition: 1s;
 	background: #FFBA09;
     color: black;
+}
+
+@media screen and (max-width: 1200px) {
+	.container {
+		width: 1130px;
+	}
+}
+
+@media screen and (max-width: 1199px) {
+	.container {
+		width: 960px;
+	}
+}
+
+@media screen and (max-width: 991px) {
+	.container {
+		width: 720px;
+	}
+}
+
+@media screen and (max-width: 767px) {
+	.container {
+		width: 540px;
+	}
+
+	.container {
+		width: 70px;
+	}
+
+	.menu a {
+		font-size: 9px;
+		margin-top: 20px;
+	}
+
+	.header {
+		padding-top: 25px;
+		margin: 0 auto;
+		height: 100vh;
+	}
+
+	h1 {
+		margin-top: 80px;
+		font-size: 21px;
+	}
+
+	.suptitle {
+		font-size: 10px;
+		width: 212px;
+	}
 }
