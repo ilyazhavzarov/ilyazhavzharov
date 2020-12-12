@@ -105,6 +105,7 @@ h1 {
 
 	.container {
 		width: 100%;
+		margin-left: 2px;
 	}
 
 	.header {
@@ -120,7 +121,7 @@ h1 {
 	}
 
 	.menu li a {
-		font-size: 12px;
+		font-size: 15px;
 		margin-right: 10px;
 	}
 
