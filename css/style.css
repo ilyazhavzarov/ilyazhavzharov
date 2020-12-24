@@ -232,4 +232,19 @@ footer {
 		font-size: 10px;
 		margin-top: 48px;
 	}
+
+	h2 {
+		margin-bottom: 35px;
+		font-size: 33px;
+		margin-right: 75px;
+	}
+
+	.sup_tittle {
+		margin-right: 72px;
+		text-align: center;
+		font-size: 12px;
+		width: 300px;
+		line-height: 3em;
+	}
+
 }
