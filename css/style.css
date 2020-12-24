@@ -1,3 +1,6 @@
+/*COMPUTER*/
+
+
 body {
 	padding: 0;
 	margin: 0;
@@ -163,25 +166,7 @@ footer {
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+/*MOBILE*/
 
 
 @media screen and (max-width: 575px) {
@@ -200,7 +185,7 @@ footer {
 		padding-left: 5px;
 		height: auto;
 		padding-top: 15px;
-		padding-bottom: 160px;
+		padding-bottom: 270px;
 	}
 
 	a {
@@ -282,7 +267,7 @@ footer {
 	.ilya {
 		font-size: 15px;
 		padding-top: 119px;
-    	padding-left: 117px;
+    	padding-left: 130px;
 	}
 
 }
