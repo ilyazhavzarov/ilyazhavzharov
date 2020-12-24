@@ -13,7 +13,7 @@ $ (function (){
 
 			scrollTop: elementOffset
 
-		});
+		}, 1000);
 
 	});
 
