@@ -239,7 +239,7 @@ footer {
 	}
 
 	.sup_tittle {
-		margin-right: 75px;
+		margin-right: 70px;
 		text-align: center;
 		font-size: 12px;
 		width: 300px;
@@ -260,7 +260,7 @@ footer {
 		width: 300px;
 		line-height: 3em;
 		margin-bottom: 30px;
-		margin-left: 60px;
+		margin-left: 50px;
 	}
 
 	.img_2 {
@@ -271,18 +271,18 @@ footer {
 	}
 
 	.social {
-		padding-top: 15px;
+		padding-top: 20px;
 		padding-right: 10px;
 	}
 
 	a {
-		font-size: 12px;
+		font-size: 15px;
 	}
 
 	.ilya {
 		font-size: 15px;
 		padding-top: 119px;
-    	padding-left: 95px;
+    	padding-left: 110px;
 	}
 
 }
