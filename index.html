@@ -8,6 +8,7 @@
 	<link href="https://fonts.googleapis.com/css2?family=Archivo+Black&family=Roboto:wght@100;400;500&display=swap" rel="stylesheet">
 	<link rel="shortcut icon" href="img/icon.png" type="image/png">
     <title>ILYA ZHAVZHAROV</title>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
 </head>
 <body>
 
@@ -15,9 +16,9 @@
     	<div class="container">
     		<nav>
     			<ul class="menu">
-    				<li><a class="menu1" href="#">About me</a></li>
-    				<li><a href="#">My hobbies</a></li>
-    				<li><a href="#">My social noteworks</a></li>
+    				<li><a class="menu1" href="#" data-scroll="#section_1">About me</a></li>
+    				<li><a href="#" data-scroll="#section_2">My hobbies</a></li>
+    				<li><a href="#" data-scroll="#footer">My social noteworks</a></li>
     			</ul>
     		</nav>
     	</div>
@@ -25,24 +26,20 @@
     	<div class="container">
     		<h1>ILYA ZHAVZHAROV</h1>
     		<p class="suptitle">On this site you can get to know me a little closer, you will find out what my hobbies are, what kinds of sports I do and much more about me will be on this site</p>
-    		<a href="#" class="btn">Click</a>
+    		<a href="#" data-scroll="#section_1" class="btn">Click</a>
     	</div>
     </header>
 
-    <section class="section_1">
-
+    <section class="section_1" id="section_1">
     	<div class="container">
     		<h2>About Me</h2>
-    	</div>
-
-    	<div class="container">
-    		<p class="sup_tittle">Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat duis enim velit mollit. Exercitation veniam consequat sunt nostrud amet. Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat duis enim velit mollit. Exercitation veniam consequat sunt nostrud amet. Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat duis enim velit mollit. Exercitation veniam consequat sunt nostrud amet.
-			</p>
+    			<p class="sup_tittle">Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat duis enim velit mollit. Exercitation veniam consequat sunt nostrud amet. Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat duis enim velit mollit. Exercitation veniam consequat sunt nostrud amet. Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat duis enim velit mollit. Exercitation veniam consequat sunt nostrud amet.
+				</p>
 			<p><img class="img_1" src="img/photo.png" alt="photo"></p>
     	</div>
     </section>
 
-   <section class="section_2">
+   <section class="section_2" id="section_2">
    		
    		<div class="container">
     		<h2>My Hobbies</h2>
@@ -57,14 +54,15 @@
    </section>
 
    <footer>
-   	<div class="container">
-
+   	<div class="container" id="footer">
    		<p class="social"><a class="social_2"l href="https://www.facebook.com/profile.php?id=100013646584678" target="_blank">FB</a></p>
    		<p class="social"><a class="social_2"l href="http://www.instagram.com/ilyazhavzharov" target="_blank">INST</a></p>
    		<p class="social"><a class="social_2"l href="https://github.com/ilyazhavzarov" target="_blank">GIT</a></p>
    		<p class="ilya">ILYA ZHAVZHAROV</p>
    	</div>
    </footer>
+
+   <script src="app.js"></script>
 
 </body>
 </html>
