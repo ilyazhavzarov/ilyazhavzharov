@@ -248,7 +248,7 @@ footer {
 		width: 300px;
 		line-height: 3em;
 		margin-bottom: 30px;
-		margin-left: 50px;
+		margin-left: 35px;
 	}
 
 	.img_2 {
@@ -271,6 +271,49 @@ footer {
 		font-size: 15px;
 		padding-top: 119px;
     	padding-left: 130px;
+    	padding-right: 130px;
 	}
 
+}
+
+@media screen and (max-width: 360px) {
+	footer {
+		width: 373px;
+		padding-right: 0;
+	}
+
+	.social {
+		margin-right: 52px;
+	}
+
+	.menu li a {
+    font-size: 13px;
+    margin-right: 15px;
+	}
+
+	h2 {
+		margin-right: -40px;
+	}
+
+	.sup_tittle {
+		margin-right: 5px;
+		font-size: 14px;
+		line-height: 2em;
+		margin-top: 15px;
+	}
+
+	.sup_tittle2 {
+		font-size: 14px;
+		line-height: 2em;
+		margin-top: 15px;
+		width: 261px;
+		margin-left: 60px;
+		margin-right: auto;
+	}
+
+	.ilya {
+		font-size: 12px;
+		padding-left: 117px;
+    	padding-right: 117px;
+	}
 }
