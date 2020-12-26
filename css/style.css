@@ -43,7 +43,6 @@ a {
 .header {
 	margin: 0 auto;
 	height: 100vh;
-	background: url('../img/header-bg2.png') no-repeat center top / cover;
 	padding-top: 55px;
 	padding-bottom: 320px;
 }
@@ -91,9 +90,11 @@ h1 {
 	font-size: 20px;
 	text-align: center;
 	letter-spacing: 0.1em;
-	padding: 15px 65px;
+	padding: 15px 70px;
 	border: 1px solid #FFBA09;
 	width: 200px;
+	display: flex;
+	margin-right: 2px;
 }
 
 .btn:hover {
@@ -180,7 +181,7 @@ footer {
 
 	.container {
 		width: 100%;
-		margin-left: 2px;
+		padding: 0;
 	}
 
 	.header {
@@ -270,15 +271,20 @@ footer {
 	.ilya {
 		font-size: 15px;
 		padding-top: 119px;
-    	padding-left: 130px;
-    	padding-right: 130px;
+    	padding-left: 104px;
+   		padding-right: 111px;
+	}
+
+	footer {
+		width: 373px;
+		padding-right: 0;
 	}
 
 }
 
 @media screen and (max-width: 360px) {
 	footer {
-		width: 373px;
+		width: 380px;
 		padding-right: 0;
 	}
 
@@ -315,5 +321,11 @@ footer {
 		font-size: 12px;
 		padding-left: 117px;
     	padding-right: 117px;
+	}
+
+
+	.container {
+		width: 100%;
+		padding: 0;
 	}
 }
