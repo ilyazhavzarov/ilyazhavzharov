@@ -189,7 +189,7 @@ footer {
 		padding-left: 5px;
 		height: auto;
 		padding-top: 15px;
-		padding-bottom: 270px;
+		padding-bottom: 100px;
 	}
 
 	a {
@@ -216,7 +216,7 @@ footer {
 
 	.btn {
 		width: 122px;
-		padding: 15px 30px; 
+		padding: 15px 45px; 
 		font-size: 10px;
 		margin-top: 48px;
 	}
@@ -230,9 +230,9 @@ footer {
 	.sup_tittle {
 		margin-right: 70px;
 		text-align: center;
-		font-size: 12px;
+		font-size: 16px;
 		width: 299px;
-		line-height: 3em;
+		line-height: 2em;
 		margin-bottom: 30px;
 	}
 
@@ -245,9 +245,9 @@ footer {
 
 	.sup_tittle2 {
 		text-align: center;
-		font-size: 12px;
+		font-size: 16px;
 		width: 300px;
-		line-height: 3em;
+		line-height: 2em;
 		margin-bottom: 30px;
 		margin-left: 35px;
 	}
@@ -270,13 +270,11 @@ footer {
 
 	.ilya {
 		font-size: 15px;
-		padding-top: 119px;
-    	padding-left: 104px;
-   		padding-right: 111px;
+		text-align: center;
+		padding-top: 120px;
 	}
 
 	footer {
-		width: 373px;
 		padding-right: 0;
 	}
 
@@ -284,7 +282,6 @@ footer {
 
 @media screen and (max-width: 360px) {
 	footer {
-		width: 380px;
 		padding-right: 0;
 	}
 
@@ -318,9 +315,9 @@ footer {
 	}
 
 	.ilya {
-		font-size: 12px;
-		padding-left: 117px;
-    	padding-right: 117px;
+		font-size: 15px;
+		text-align: center;
+		padding-top: 120px;
 	}
 
 
